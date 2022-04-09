@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colors</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="colors">
+        <span>red</span> <input type="number" class="colors" id="red" />
+        <span>green</span> <input type="number" class="colors" id="green" />
+        <span>blue</span> <input type="number" class="colors" id="blue" /><br />
+        <span>give name to your favorite colors</span
+        ><input type="text" id="saved-colors-nick" /> <span>hex</span>
+        <div id="hex"></div>
+      </div>
+    </div>
+    <div class="buttons">
+      <button class="btn" id="btn">color one</button>
+      <button class="btn" id="btn2">color two</button>
+      <button class="btn" id="btn3">saveColor</button>
+      <button class="btn" id="btn4">watch saved colors</button>
+    </div>
+    <div id="saved-colors"></div>
+    <div class="result-container">
+      <div class="result" id="result-one"></div>
+      <div class="result" id="result-two"></div>
+    </div>
+  </body>
+</html>
